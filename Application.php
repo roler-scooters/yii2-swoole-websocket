@@ -10,7 +10,7 @@ namespace immusen\websocket;
 
 
 use Yii;
-use Swoole\Websocket\Server;
+use immusen\websocket\src\Server;
 use immusen\websocket\src\Task;
 use immusen\websocket\src\Redis;
 use immusen\websocket\src\rpc\Request;
